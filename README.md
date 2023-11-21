@@ -1,4 +1,4 @@
-# srt2subtitles 
+# srt2subtitles
 
 > Generate editable video subtitles in Final Cut Pro from a SRT file.
 
@@ -7,12 +7,15 @@ Imagine you are using Final Cut Pro to edit videos and want to add built-in subt
 <img src="srt2subtitles-cli-screenshot.gif">
 
 ## Install
+
 Ensure you have [Node.js](https://nodejs.org) 14 or later installed. Then run the following:
+
 ```sh
 npm install --global srt2subtitles
 ```
 
 ## Usage
+
 ```
 $ srt2subtitles --help
   Generate editable video subtitles in Final Cut Pro from a SRT file.
@@ -24,10 +27,11 @@ $ srt2subtitles --help
 	$ srt2subtitles TheImitationGame.srt 29.97 ./subtitles/
 ```
 
-
-
 ## Subtitles in Final Cut Pro
 
 <img src="fcpx-project-screenshot.png">
 
+## Update
 
+- support many titles
+- support many fonts in utils/fonts.js
